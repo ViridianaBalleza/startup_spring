@@ -2,31 +2,34 @@ package com.accenture.model;
 
 public class Exercise {
 
-	private int minutes;
-	private String rutina;
-	private String nombre;
-
-	public int getMinutes() {
-		return minutes;
-	}
-
-	public void setMinutes(int minutes) {
-		this.minutes = minutes;
-	}
 	
-	public String getRutina() {
-		return rutina;
-	}
-
-	public void setRutina(String rutina) {
-		this.rutina = rutina;
-	}
+	private int pza2;
+	private int pza3;
+	private int pzatetra;
+	private int pzamir;
 	
-	public String getNombre(){
-		return nombre;
+	public int getPzamir() {
+		return pzamir;
 	}
-	
-	public void setNombre(String nombre){
-		this.nombre = nombre;
+	public void setPzamir(int pzamir) {
+		this.pzamir = pzamir;
+	}
+	public int getPza2() {
+		return pza2;
+	}
+	public void setPza2(int pza2) {
+		this.pza2 = pza2;
+	}
+	public int getPza3() {
+		return pza3;
+	}
+	public void setPza3(int pza3) {
+		this.pza3 = pza3;
+	}
+	public int getPzatetra() {
+		return pzatetra;
+	}
+	public void setPzatetra(int pzatetra) {
+		this.pzatetra = pzatetra;
 	}
 }
